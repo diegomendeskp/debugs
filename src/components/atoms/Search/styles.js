@@ -1,0 +1,13 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  display: flex;
+  gap: 5px;
+`;
+
+export const Icon = styled.div`
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+`;
