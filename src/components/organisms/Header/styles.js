@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #000;
   width: 100%;
   height: 15%;
   display: flex;
@@ -9,4 +8,7 @@ export const Container = styled.div`
   justify-content: space-around;
   font-size: 20px;
   color: antiquewhite;
+  float: none;
+  position: absolute;
+  z-index: 2;
 `;

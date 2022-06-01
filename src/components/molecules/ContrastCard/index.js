@@ -1,5 +1,15 @@
 import React from 'react';
-import { Container, P, Square, Div, ShopDiv } from './styles';
+import {
+  Container,
+  P,
+  Square,
+  Div,
+  ShopDiv,
+  P2,
+  P3,
+  Span,
+  Text,
+} from './styles';
 import { Card } from '../../atoms/';
 import ShopItems from '../../atoms/ShopItems';
 
@@ -9,6 +19,15 @@ function ContrastCard() {
       <Container>
         <Div>
           <Card />
+          <Text>
+            <P2>MORTAL KOMBAT</P2>
+            <P3>R$ 299,⁹⁹</P3>
+            <Span>
+              Mussum ipsum, cacilds vidis litro abertis. Atirei o pau
+              no gatis, per gatis num morreus. Preasent vel viverra
+              nissi. Mauris aliquet nunc non turpis scelerisque, eget.
+            </Span>
+          </Text>
         </Div>
         <P>
           <Square />
