@@ -14,25 +14,22 @@ export const Button = styled.button`
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  cursor: pointer;
   &:hover + Div {
     display: flex;
   }
 `;
 export const Div = styled.div`
   display: none;
-  float: none;
   margin-top: 40px;
-  padding: 5px;
+  padding: 23px;
   text-align: left;
   position: absolute;
   background: #084154;
-  border-bottom: 7px solid #3ec6e0;
-  border-right: 7px solid #3ec6e0;
-  outline: 3px solid #3ec6e0;
-
+  box-shadow: 7px 7px 0px #3ec6e0;
+  border: 2px solid #3ec6e0;
   min-width: 160px;
   z-index: 1;
-
   &:hover {
     display: flex;
   }
@@ -40,20 +37,27 @@ export const Div = styled.div`
 
 export const List = styled.ul`
   list-style-type: none;
-  padding: 12px 16px;
+  padding: 0px 16px;
   text-align: left;
   display: block;
-  float: none;
+
+  li:not(:first-child) {
+    margin-top: 6px;
+  }
 `;
 
 export const Link = styled.a`
   color: white;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
-export const H1 = styled.h1`
+export const Span = styled.span`
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
+  font-weight: bold;
 `;

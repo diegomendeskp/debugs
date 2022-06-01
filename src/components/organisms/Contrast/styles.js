@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #000;
-  width: 100%;
-  height: 15%;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 30px 30px;
+  align-content: center;
+  width: 100%;
+  height: 100%;
   justify-content: space-around;
-  font-size: 20px;
-  color: antiquewhite;
 `;

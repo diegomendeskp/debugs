@@ -1,3 +1,4 @@
+export * from './Card';
 export * from './Menu';
 export * from './Logo';
 export * from './Bag';

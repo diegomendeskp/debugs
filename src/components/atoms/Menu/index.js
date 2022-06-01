@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
-import { Container, Button, Div, List, Link, H1 } from './styles';
+import { Container, Button, Div, List, Link, Span } from './styles';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 export function Menu() {
@@ -12,7 +12,7 @@ export function Menu() {
       <Div>
         <List>
           <li>
-            <H1>Luta</H1>
+            <Span>Luta</Span>
           </li>
           <li>
             <Link href="#">Mortal Kombat</Link>
@@ -30,7 +30,7 @@ export function Menu() {
 
         <List>
           <li>
-            <H1>Ação / Aventura</H1>
+            <Span>Ação / Aventura</Span>
           </li>
           <li>
             <Link href="#">GTA V</Link>
@@ -48,7 +48,7 @@ export function Menu() {
 
         <List>
           <li>
-            <H1>Corrida</H1>
+            <Span>Corrida</Span>
           </li>
           <li>
             <Link href="#">Need for speed</Link>
